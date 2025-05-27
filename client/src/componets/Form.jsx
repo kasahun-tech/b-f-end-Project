@@ -53,9 +53,9 @@ const handleChange =(e)=>{
 return(
    <form
   onSubmit={handleSubmit}
-  className="max-w-xl mx-auto p-6 bg-white rounded-xl shadow-md space-y-6"
+  className="max-w-xl mx-auto p-6 bg-white rounded-sm shadow-md space-y-6"
 >
-  <h1 className="text-3xl font-semibold text-center">
+  <h1 className="text-3xl font-bold text-center shadow-2xl ">
     {isEdit ? "Edit" : "Create"} Patient
   </h1>
 
